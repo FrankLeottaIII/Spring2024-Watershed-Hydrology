@@ -1,0 +1,14 @@
+
+I plan on using this time to 
+
+How much water do you need for a forest in the pine woodland management area (PWMA, was formally pine Stoddard-Neel, and in total consist of 12.7 acres in total)
+
+Picture in final report letter
+pine importance value = reletive trees per hectare and rel basil area per hectare
+basal area  = (diamiter at breast hight) ^2)*0.00007854
+{\displaystyle BA(m^{2})=0.00007854\times DBH(cm)^{2}} in Metric system
+BA(m^{2})=0.00007854 times DBH(cm)^{2}} in Metric system times 2.29
+basal area per hectare =  stand
+quare feet to sqare meters,,, square feet to square meters
+trees per hectare
+4)	Is the stand pine dominated (pine IVI > 75%), hardwood dominated (pine IVI < 25%), or a mixedwood (pine IVI: 26-75%)?
