@@ -1,5 +1,5 @@
 #
-from logging import lastResort
+#from logging import lastResort
 
 
 list1 = ["1","2","3"]
