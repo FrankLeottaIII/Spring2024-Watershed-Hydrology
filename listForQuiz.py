@@ -28,10 +28,23 @@ dict2 = {"Question": (("a", "b"), ("c", "d"))}
 value_a = dict2["Question"][0][0] #this is the correct way for this
 print(f"the value of a in the touple dict is: {value_b}")
 
-HydrologyQandA = {
+HydrographQandA = {
+    "QuestionAndAnswers": (("precipitation start time", "when it starts"),("precipitation end time","when it ends"  ),("total precipitation", "total amount of precip between start time and end time"),("stream response begins", "starts at base flow"),("base flow", "base flow is the amount at which cubic feet a second before the storm increase happens. "), 
+("peak flow", "peak flow is the highest point that the cfs is durring the storm"), ("stream response ends- strait line method", "to get this, draw a strait line from beginning of base flow to end where the graph meets this line"), ("Lag time", "lag time is the precip start - stream response begins"),("Rise time", "Time Stream response begins - Time peak flow occures") )
+}
+
+#just grab the second item in each inner list from a loop and put it in a seperate list for answer sheet
+
+HydrographsQandA = {
     "QuestionAndAnswers":((b,a),),
     "Answers" : (a,b)
+
 }
+
+
+
+
+
 
 def question_type_1(question:str, answer:str,all_answers: list)->bool:
     """Summary:
