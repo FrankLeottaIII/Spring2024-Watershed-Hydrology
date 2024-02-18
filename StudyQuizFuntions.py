@@ -236,9 +236,10 @@ def answer_a_question_specific_2(question:str, answer:str, answer_list:list, sim
         This is for questions that have 2 other similar wrong answers, with one being a randomized answer from a list of all answers.
         This is for questions that are likely to stump the user, and such should be used to make the quiz harder.
         USES SETS, so answers cannot be the same, and will not repeat.
-        WARNING: answer list must have 5 answers minimum and 2 that are completly different from similar answers, and similar answer list must have 2 other answers besides the correct answer (3) minimum
+        WARNING: answer list must have 5 answers minimum and (2 that are completly different from similar answers), and similar answer list must have 2 other answers besides the correct answer (3) minimum
         wrong answers from similiar answer list will be b or c, and the other wrong answer will be from the answer list
 
+        Pros from other a_ask_question : more likelyhood to have relevent wrong answers, without it being self evident to those with pattern recognition
     Args:
         question (str): The question that will be asked
         answer (str): The correct answer
@@ -347,13 +348,24 @@ def answer_a_question_specific_2(question:str, answer:str, answer_list:list, sim
         print("The correct answer was A.)", answer)
         return False
 
-answer_list_example = ["2", "4", "6", "8", "10"]
-similar_answer_list_example2 = ["2", "4"]
-print(answer_a_question_specific_2(question_1_example, answer_1_example, answer_list_example, similar_answer_list_example2))
+# answer_list_example = ["2", "4", "6", "8", "10"]
+# similar_answer_list_example2 = ["2", "4"]
+# print(answer_a_question_specific_2(question_1_example, answer_1_example, answer_list_example, similar_answer_list_example2))
 
 
-answer_list_example = ["2", "4", "6", "8", "10"]
-similar_answer_list_example2 = ["2", "4"]
+# answer_list_example = ["2", "4", "6", "8", "10"]
+# similar_answer_list_example2 = ["2", "4"]
+
+
+
+
+
+
+
+
+
+
+
 #remember:
 
        # if user_answer != "a" or user_answer != "b" or user_answer != "c" or user_answer != "d" or user_answer != "A" or user_answer != "B" or user_answer != "C" or user_answer != "D": This will not work, it will always be true, logical error
